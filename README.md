@@ -1,7 +1,7 @@
 # IoT - Cloud Project: Weather Data Analysis - Multi Node Cluster Architecture
 
 By integrating the Cloud services and features (AWS) with the IoT system, our team have developed the IoT intelligent system which automatically collect the weather data, store them in RDS database hosted on AWS Cloud, and visualized by the developed PHP Web Application. 
-The developed IoT node can collect 6 seperate types of weather record and automatically analyze to provide the condition of air quality through developed PHP web application. After that, the web application will visualize the weather records as well as the condition of air quality for the client through the interface of web application. 
+The developed IoT node can collect 6 seperate types of weather record and automatically analyze to provide the condition of air quality through developed PHP web application. The web application will process and visualize the weather records as well as the condition of air quality in real-time for the client through the interface of web application. 
 There are 10 types of record that will be visualized and provided for the client through web application including:
 + ID
 + Location
