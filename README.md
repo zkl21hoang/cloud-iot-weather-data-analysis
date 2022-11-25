@@ -25,3 +25,5 @@ For the data visualization part, our team decided to use the data visualization 
 + Connection: Wireless Connection, Restful API
 + Security: ACLs, IAM, Security Group (Cloud)
 + Data Visualization Software: PowerBI
+
+![alt text](https://github.com/zkl21hoang/cloud-iot-weather-data-analysis/blob/main/images/project-cloud-architecture.png)
