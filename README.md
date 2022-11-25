@@ -17,10 +17,10 @@ Client can use the download function through the web application to download the
 For the data visualization part, our team decided to use the data visualization software (PowerBI) to conduct this process.
 
 
-- AWS services: Amazon EC2, Amazon RDS, Amazon IAM, Amazon IoT
-- Server: IoT - Web Application Server, IoT - Intermediary Server, AWS RDS – (SQL Server, SQL Backup Server)
-- IoT hardware: 3 Weather Nodes (Sensors to collect data, and deliver to Cloud Database by Wireless ESP),
+AWS services: Amazon EC2, Amazon RDS, Amazon IAM, Amazon IoT
+Server: IoT - Web Application Server, IoT - Intermediary Server, AWS RDS – (SQL Server, SQL Backup Server)
+IoT hardware: 3 Weather Nodes (Sensors to collect data, and deliver to Cloud Database by Wireless ESP),
 Master Node (Raspberry) is connected with AWS Cloud through AWS IoT.
-- Connection: Wireless Connection, Restful API
-- Security: ACLs, IAM, Security Group (Cloud)
-- Data Visualization Software: PowerBI
+Connection: Wireless Connection, Restful API
+Security: ACLs, IAM, Security Group (Cloud)
+Data Visualization Software: PowerBI
