@@ -29,7 +29,7 @@ For the data visualization part, our team decided to use the data visualization 
 Cloud Architecture:
 ![alt text](https://github.com/zkl21hoang/cloud-iot-weather-data-analysis/blob/main/images/project-cloud-architecture.png)
 
-Security of Architecture:
+Security Layer applied to each component of the architecture:
 ![alt text](https://github.com/zkl21hoang/cloud-iot-weather-data-analysis/blob/main/images/project-cloud-architecture-2.png)
 
 Interface of Web Application:
