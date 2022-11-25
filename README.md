@@ -13,7 +13,7 @@ There are 10 types of record that will be visualized and provided for the client
 + Rain
 + Air quality
 + Timestamp
-Client can use the download function through the web application to download the spreadsheet type of these records for the data visualization.
+\nClient can use the download function through the web application to download the spreadsheet type of these records for the data visualization.
 For the data visualization part, our team decided to use the data visualization software (PowerBI) to conduct this process.
 
 
