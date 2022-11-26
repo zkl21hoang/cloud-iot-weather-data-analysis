@@ -25,17 +25,17 @@ For the data visualization part, our team decided to use the data visualization 
 + Security: ACLs, IAM, Security Group (Cloud)
 + Data Visualization Software: PowerBI
 
-Cloud Architecture:
+#### Cloud Architecture:
 ![alt text](https://github.com/zkl21hoang/cloud-iot-weather-data-analysis/blob/main/images/project-cloud-architecture.png)
 
-Security Layer applied to each component of the architecture:
+#### Security Layer applied to each component of the architecture:
 ![alt text](https://github.com/zkl21hoang/cloud-iot-weather-data-analysis/blob/main/images/project-cloud-architecture-2.png)
 
-Interface of Web Application:
+#### Interface of Web Application:
 ![alt text](https://github.com/zkl21hoang/cloud-iot-weather-data-analysis/blob/main/images/web-app-1.png)
 
 ![alt text](https://github.com/zkl21hoang/cloud-iot-weather-data-analysis/blob/main/images/web-app-2.png)
 
-Data Visualization (PowerBI):
+#### Data Visualization (PowerBI):
 ![alt text](https://github.com/zkl21hoang/cloud-iot-weather-data-analysis/blob/main/images/data-visualization.png)
 Comparison between Ba Dinh District and Nam Tu Liem District
