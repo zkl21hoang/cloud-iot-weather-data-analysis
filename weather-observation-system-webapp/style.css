@@ -1,0 +1,190 @@
+body {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Recursive', sans-serif;
+    top: 50%;
+    left: 50%;
+}
+.card  {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  text-align: center !important;
+  background-color: #f1f1f1 !important; 
+  color: black !important;
+  width: 20%;	
+  height: 100px;
+  margin-top: 30px;
+  padding-top: 10px;
+}
+
+
+@media screen and (max-width: 800px) {
+    body {
+        width: 100%;
+    }
+}
+h1 {
+    color: white;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 2.5rem;
+ }
+h3 {
+	color:white;
+}
+
+span {
+    color:black;
+}
+
+input[type=number] {
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 16px;
+  margin: auto;
+}
+select {
+    border: 2px solid white !important; 
+    border-radius: 4px !important; 
+    padding: 16px !important; 
+    margin: auto !important; 
+    color: grey !important;
+  }
+
+input[type=submit]{
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.excel{
+width: 100% !important;
+height: 425px;
+background-color: #f1f1f1;
+padding-top: 50px;
+margin-top: 20px;
+}
+.col-md-4{
+margin-bottom: 30px;
+margin-top: 20px;
+}
+
+.header {
+         width: 100%;
+	 padding: 1rem;
+	 margin: 0 0 2rem 0;
+	 background-image: linear-gradient(to right, #6441A5 , #2a0845);
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Recursive', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.content {
+    text-align:center;
+    margin: auto;
+}
+
+@media screen and (max-width: 500px) /* Mobile */ {
+    .content {
+        flex-direction: column;
+    }
+}
+
+.mask {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: 12.5rem;
+    height: 6.25rem;
+    margin: 1.25rem;
+}
+
+.semi-circle {
+    position: relative;
+    display: block;
+    width: 12.5rem;
+    height: 6.25rem;
+    background: linear-gradient(to right, #1a2a6c 33%,#b21f1f 66%, #fdbb2d 100%);
+    border-radius: 50% 50% 50% 50% / 100% 100% 0% 0%;
+}
+
+.semi-circle::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: 2;
+    display: block;
+    width: 8.75rem;
+    height: 4.375rem;
+    margin-left: -4.375rem;
+    background: #fff;
+    border-radius: 50% 50% 50% 50% / 100% 100% 0% 0%;
+}
+
+.semi-circle--mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 12.5rem;
+    height: 12.5rem;
+    background: transparent;
+    transform: rotate(120deg) translate3d(0, 0, 0);
+    transform-origin: center center;
+    backface-visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.semi-circle--mask::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0%;
+    z-index: 2;
+    display: block;
+    width: 12.625rem;
+    height: 6.375rem;
+    margin: -1px 0 0 -1px;
+    background: #f2f2f2;
+    border-radius: 50% 50% 50% 50% / 100% 100% 0% 0%;
+}
+
+.gauge--2 .semi-circle { background: #0575E6; }
+
+.gauge--2 .semi-circle--mask { transform: rotate(20deg) translate3d(0, 0, 0); }
+
+#tableReadings { border-collapse: collapse; }
+
+#tableReadings td, #tableReadings th {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#tableReadings tr:nth-child(even){ background-color: #f4c4f3; }
+
+#tableReadings tr:hover { background-color: #ddd; }
+
+#tableReadings th {
+    padding: 10px;
+    background-color: #2657eb;
+    color: white;
+}
