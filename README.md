@@ -1,4 +1,4 @@
-# IoT - Cloud Project: Weather Observation System - Multi IoT-node Architecture
+# IoT - Cloud Project: Weather Observation System - Multi IoT-node architecture
 
 #### By integrating the Cloud services and features (AWS) with the IoT system, our team have developed the IoT intelligent system which automatically collect the weather data from each IoT-node, store them in RDS database hosted on AWS Cloud, and visualized by the developed PHP Web Application. 
 #### Our team developed three IoT nodes by applying the multi sensors to one IoT node architecture that can collect six different types of weather records and automatically analyze them to provide the current condition of air quality via the web application. The web application will process and visualize the weather records as well as the current condition of air quality in real-time for the client through the interface of web application. 
