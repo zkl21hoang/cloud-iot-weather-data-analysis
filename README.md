@@ -43,4 +43,4 @@ For the data visualization part, our team decided to use the data visualization 
 
 #### Data Visualization (PowerBI):
 ![alt text](https://github.com/zkl21hoang/cloud-iot-weather-data-analysis/blob/main/images/data-visualization.png)
-Comparison between Ba Dinh District and Nam Tu Liem District
+Data visualization and comparison between two districts
