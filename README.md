@@ -16,11 +16,12 @@ There are 10 types of record that will be visualized and provided for the client
 
 #### Hardware & Software:
 + AWS services: Amazon EC2, Amazon RDS, Amazon IAM, Amazon IoT
-+ Server: IoT - Web Application Server, IoT - Intermediary Server, AWS RDS – (SQL Server, SQL Backup Server)
-+ IoT hardware: 3 Weather Nodes (Sensors to collect data, and deliver to Cloud Database by Wireless ESP),
-+ Master Node (Raspberry) is connected with AWS Cloud through AWS IoT.
++ Server: IoT - Web Application Server, IoT - Intermediary Server
++ Database Server: AWS Relational Database Service (AWS RDS) - SQL Server, SQL Backup Server
++ IoT hardware: 3 Weather Nodes (Sensors to collect data, and deliver to relational database hosted in AWS cloud through wireless connection)
++ Master Node (Raspberry) is connected with AWS Cloud through AWS IoT
 + Connection: Wireless Connection, Restful API
-+ Security: ACLs, IAM, Security Group (Cloud)
++ Security: AWS Security Group, AWS Identity & Access Management (AWS IAM)
 + Data Visualization Software: PowerBI
 
 #### Cloud Architecture:
